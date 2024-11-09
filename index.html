@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
     <!-- navigation start -->
@@ -15,10 +19,11 @@
         </div>
         <button class="hamburger">☰</button>
         <ul class="nav-links">
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="registration.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -108,7 +113,10 @@
         <!-- Infant Care -->
         <div class="program-card">
           <div class="program-image">
-            <img src="/api/placeholder/400/300" alt="Infant Care Program" />
+            <img
+              src="./assets/images/infantcare.png"
+              alt="Infant Care Program"
+            />
           </div>
           <div class="program-content">
             <h3>Infant Care</h3>
@@ -125,7 +133,7 @@
         <!-- Toddler Program -->
         <div class="program-card">
           <div class="program-image">
-            <img src="/api/placeholder/400/300" alt="Toddler Program" />
+            <img src="./assets/images/toddler.png" alt="Toddler Program" />
           </div>
           <div class="program-content">
             <h3>Toddler Program</h3>
@@ -143,7 +151,7 @@
         <div class="program-card">
           <div class="program-image">
             <img
-              src="/api/placeholder/400/300"
+              src="./assets/images/earlypreschool.png"
               alt="Early Pre-School Program"
             />
           </div>
@@ -162,7 +170,7 @@
         <!-- Pre-School -->
         <div class="program-card">
           <div class="program-image">
-            <img src="/api/placeholder/400/300" alt="Pre-School Program" />
+            <img src="./assets/images/preschool.png" alt="Pre-School Program" />
           </div>
           <div class="program-content">
             <h3>Pre-School</h3>
@@ -179,7 +187,7 @@
         <!-- Grade R -->
         <div class="program-card">
           <div class="program-image">
-            <img src="/api/placeholder/400/300" alt="Grade R Program" />
+            <img src="./assets/images/grader.png" alt="Grade R Program" />
           </div>
           <div class="program-content">
             <h3>Grade R</h3>
@@ -195,6 +203,139 @@
       </div>
     </section>
     <!-- programs section end -->
+    <!-- faq start -->
+    <section class="faq-section">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to common questions about our programs and services.</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>When does school open?</h3>
+            <div class="faq-toggle"></div>
+          </div>
+          <div class="faq-answer">
+            <p>It opens on 18th of January.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>When can I register my child?</h3>
+            <div class="faq-toggle"></div>
+          </div>
+          <div class="faq-answer">
+            <p>Registrations will be open from the 5th of January.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What time can I fetch my kid?</h3>
+            <div class="faq-toggle"></div>
+          </div>
+          <div class="faq-answer">
+            <p>
+              You will be able to fetch your child from 12:00am to 16:00pm. If
+              the child is in the premises longer than 16:00pm you will be
+              charged per hour.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Is there transport available for my child after school?</h3>
+            <div class="faq-toggle"></div>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Yes, you can sign up for transport after filling out the
+              registration form.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faq end -->
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>
+              Latter Glory Day Care is dedicated to providing quality education
+              and care for children in a safe, nurturing environment. Our
+              experienced staff ensures your child's growth and development.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="quick-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Programs</a></li>
+              <li><a href="#">Registration</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Business Hours</h3>
+            <ul class="business-hours">
+              <li>
+                <span>Monday - Friday:</span>
+                <span>6:30 AM - 4:00 PM</span>
+              </li>
+              <li>
+                <span>Saturday:</span>
+                <span>Closed</span>
+              </li>
+              <li>
+                <span>Sunday:</span>
+                <span>Closed</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <ul class="contact-info">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>123 School Street, Umlazi, KZN</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <span>+27 12 345 6789</span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>info@latterglory.co.za</span>
+              </li>
+              <li>
+                <i class="fas fa-clock"></i>
+                <span>Monday - Friday: 6:30 AM - 4:00 PM</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Latter Glory Day Care. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
     <script src="script.js"></script>
   </body>
 </html>

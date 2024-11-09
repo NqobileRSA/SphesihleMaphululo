@@ -1,0 +1,161 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.site-header {
+  background-color: #ffffff;
+}
+
+.main-navigation {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-wrapper.paragraph1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.pages {
+  display: flex;
+  gap: 1.875rem;
+}
+
+.pages a {
+  color: #333333;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.pages a:hover {
+  color: #ff6b6b;
+  background-color: rgba(255, 107, 107, 0.1);
+}
+
+.page-title {
+  padding: 3rem 0;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.flower {
+  width: 60px;
+  height: auto;
+}
+
+.Aboutus h1 {
+  font-size: 2.25rem;
+  margin: 0;
+  position: relative;
+}
+
+.Aboutus h1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  /* height: 3px; */
+  background-color: #ff6b6b;
+  margin-top: 0.5rem;
+}
+
+.ourcreche {
+  padding: 4rem 0;
+}
+
+.ourcrecheheading {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.content-wrapper {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.about-content p {
+  color: #666666;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.about-image {
+  margin: 2rem 0;
+}
+
+.aboutpicture {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.site-footer {
+  padding: 2rem 0;
+}
+
+.footer-divider {
+  border: none;
+  height: 2px;
+  background-color: #e0e0e0;
+  margin: 2rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-wrapper.paragraph1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pages {
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .Aboutus h1 {
+    font-size: 1.75rem;
+  }
+
+  .heading {
+    flex-direction: column;
+  }
+
+  .content-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .content-wrapper {
+    grid-template-columns: 3fr 2fr;
+    align-items: start;
+  }
+}
